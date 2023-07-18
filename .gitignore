@@ -1,0 +1,24 @@
+# files
+*.pyc
+*.jp*g
+*.txt
+*.docx
+layout.json
+.vscode/
+
+# pdf testing files
+*.pdf
+!demo*.pdf
+*coverage*
+
+test/issues/
+test/features/
+test/outputs/
+
+diff.png
+
+# building dir
+build/
+dist/
+*egg-info/
+pdf2docx*.rst
